@@ -1,0 +1,1 @@
+Jenkinsfile meant to be run on vm running nexus
