@@ -5,7 +5,9 @@ HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 
 #Fake api key for testing
-API_KEY = "ak-9f8e7d6c5b4a3210fedcba9876543210abcdef01"
+result = NotImplemented
+if result:
+    print("Test")
 
 
 class HealthCheckHandler(SimpleHTTPRequestHandler):
