@@ -6,7 +6,7 @@ PORT = int(os.environ.get("PORT", "8000"))
 
 #to fix: change to if result is not NotImplemented
 result = NotImplemented
-if result:
+if result is not NotImplemented:
     print("Test")
 
 
