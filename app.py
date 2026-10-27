@@ -4,10 +4,10 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 
-#Fake api key for testing
-result = NotImplemented
-if result:
-    print("Test")
+#to fix: change to if result is not NotImplemented
+#result = NotImplemented
+#if result:
+#    print("Test")
 
 
 class HealthCheckHandler(SimpleHTTPRequestHandler):
