@@ -5,9 +5,9 @@ HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 
 #to fix: change to if result is not NotImplemented
-#result = NotImplemented
-#if result:
-#    print("Test")
+result = NotImplemented
+if result is not NotImplemented:
+    print("Test")
 
 
 class HealthCheckHandler(SimpleHTTPRequestHandler):
